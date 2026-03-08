@@ -1,0 +1,372 @@
+/* Home page Style */
+
+body {
+    background-color: #1D546D;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+   margin:0px ;
+   padding-top: 150px;
+
+}
+
+.navbar {
+    padding: 0px ;
+    background-color: #061E29;
+    border: 2px solid rgb(84, 84, 84);
+    margin-bottom: 50px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 10px;
+
+    
+}
+.nav-links {
+    list-style-type:none;
+    margin:10px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+.nav-links li {
+    margin: 10px 15px;
+ 
+}   
+.nav-links a {
+    color: rgb(146, 144, 144);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    
+ 
+
+}
+
+.nav-links a:hover {
+    color: white;
+    font-size: 22px;
+    
+
+}
+.name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    text-decoration: none
+    
+}
+h1{
+   text-wrap: nowrap;
+  
+}
+h2{
+    font-size: 24px;
+    margin: 2px 0;
+    color: rgb(196, 172, 18);
+    
+}
+.name-job-title-container {
+    display: inline-block;
+    
+    align-items: center;
+    
+   
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin:5% 0% 10% 10%;
+    
+    align-items: center;
+}
+.image-container {
+    display: inline-block;
+    size: fit-content;
+    align-items: center;
+
+}
+
+
+.summary {
+   
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    display: inline-block;
+
+    
+ 
+}
+.profile-image {
+    display: inline-block;
+    border-radius: 50% 3% 50% 50%;
+    margin-top: 50px;
+    margin-left: 20%;
+    width:  280px;
+    height: 280px;
+    
+    
+}
+/* Contact Style */
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin:2% 0% 2% 2%;
+    align-items: left;
+}
+.contact-container h1 {
+    margin-left: 30%;
+}
+.contact-container p {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.contact-container i {
+    margin: 5px 10px;
+   font-size: 30px;
+}
+.contact-container a {
+    text-decoration: underline;
+    color: #f8f8f6;
+    margin: 0px 10px;
+    text-wrap: nowrap;
+}
+.contact-container p, .contact-container i {
+    font-size: 20px;
+}
+.contact-container p strong{
+    color: burlywood;
+}
+/* Skills page Style  */
+
+
+h1{
+    margin: 0% 40%;
+    font-size: 40px;
+}
+
+.skills-section{
+    display: flex;
+    justify-content: space-between;
+     align-items: flex-start;
+    gap: 40px;
+    padding: 20px; 
+}
+.main-content > div{
+    flex: 1;
+}
+.main-content h2{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+.skills-title::before {
+    content: "\f5dc";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    
+    
+}
+.soft-skills h2::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Computer-skills h2::before {
+    content: "\e4e5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Back-End-Skills h2::before {
+    content: "\f5dc";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.programming-skills  h2::before {
+    content: "\f121";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Front-End-Skills::before {
+    content: "\f5dc";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Back-End-Skills::before{
+    content: "\e4e5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+div{
+    background-color: #23576f;
+    color: white;
+    border-radius: 10px;
+  
+}
+.skill-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+}
+.skill-item i{
+    margin-right: 4px;
+}
+.programming-skills-list{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    
+    
+}
+/* Work Experince */
+.work-experience-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+.work-experience-list li{
+    list-style: none;
+
+}
+.work-experience-list h4{
+    
+   text-wrap: nowrap;
+}
+
+
+.job-description{
+    
+    font-size: large;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 600px;
+    font-weight: 400;
+    
+    
+}
+.company-name span{
+ 
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+
+}
+.job-period{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+}
+.job-year{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+    color : burlywood;
+}
+.comapny-logo{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.company-item{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+section{
+    scroll-margin-top: 200px;
+    
+}
+
+.education-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+.education-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 600px;
+
+    
+
+    
+}
+.education-list li {
+    list-style: none;
+}
+
+.education-list h2{
+    text-wrap: wrap;
+}
+.education-list p{
+    font-size: large;
+    text-align: left;
+    line-height: 1.5;
+    max-width: 600px;
+    font-weight: 400;
+}
+/* Personal info */
+.personal-info-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+.personal-info-list li {
+    margin-left: 20px;
+    font-size: 20px;
+ 
+   
+}
+.personal-info-list li span{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 1.5;    
+    max-width: 600px;
+    margin-right: 10px;
+   
+}
+.personal-info-list span i {
+    margin-right: 2px;
+}
+
+.Section-title{
+    margin: 100px 0px 20px 0px;
+    background-color: transparent;
+    
+}
